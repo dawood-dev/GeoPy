@@ -1,4 +1,6 @@
-![GeoPy](/geopy.png) 
+ ![CI](https://github.com/dawood-dev/GeoPy/actions/workflows/geopi.yml/badge.svg)
+ 
+ ![GeoPy](/geopy.png) 
 
 <h1>About</h1>
 
