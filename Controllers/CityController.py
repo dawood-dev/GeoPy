@@ -2,6 +2,10 @@ from flask import Response, request
 from Models.City import City
 from flask_restful import Resource
 
+class GeoPy(Resource):
+    def get(self):
+        cities = City.objects().to_json()
+        return Response(cities, mimetype="application/json", status=200)
 
 class CitiesApi(Resource):
     def get(self):
